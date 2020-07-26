@@ -4,14 +4,14 @@
   "description": "Node.js sample app for OpenShift 3",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.13.4",
+    "express": "^4.13.4"
   },
   "engine": {
     "node": "*",
     "npm": "*"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

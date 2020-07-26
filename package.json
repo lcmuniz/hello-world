@@ -1,16 +1,26 @@
 {
   "name": "hello-world",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift 3",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lcmuniz/hello-world"
+  },
+  "author": "Steve Speicher <lcmuniz@gmail.com>",
+  "license": "CC-BY-1.0",
+  "bugs": {
+    "url": "http://github.com/sclorg/nodejs-ex/issues"
+  },
+  "homepage": "http://github.com/lcmuniz/hello-world"
 }

@@ -15,3 +15,5 @@ app.get('/', (req, res) => {
 app.listen(server_port, server_ip_address, function() {
   console.log('Server started')
 })
+
+module.exports = app
